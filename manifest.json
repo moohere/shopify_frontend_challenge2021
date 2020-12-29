@@ -2,6 +2,11 @@
   "short_name": "Shopify FE Challenge",
   "name": "Shopify Front-End Challenge",
   "icons": [
+    {
+      "src": "fav.ico",
+      "sizes": "16x16",
+      "type": "images/x-icon"
+      }
   ],
   "start_url": ".",
   "display": "standalone",
