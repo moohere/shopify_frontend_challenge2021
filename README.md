@@ -7,10 +7,10 @@ I knew I wanted to split the project into 3 components and React felt like a gre
 I decided to practice more React and opted to use the library for this challenge.
 
 I have successfully implemented what was required:
--> Search the OMDB and display the results (movies only).
--> Add a movie from the search results to the nomination list.
--> View the list of films already nominated.
--> Remove a nominee from the nomination list.
+    * Search the OMDB and display the results (movies only).
+    * Add a movie from the search results to the nomination list.
+    * View the list of films already nominated.
+    * Remove a nominee from the nomination list.
 
 And as for the extras/bonuses, I have implemented the ability to save nomination lists if the user
 leaves the page. I have also decided to add a few transition/animations for buttons and lists.
