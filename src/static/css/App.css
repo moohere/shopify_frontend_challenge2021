@@ -1,0 +1,128 @@
+html {
+  background-color: #fbd589;
+}
+
+/* Animations for nomination list resizing */
+.extendList1{
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  min-height: 200px !important;
+}
+.extendList2{
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  min-height: 250px !important;
+}
+.extendList3{
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  min-height: 300px !important;
+}
+.extendList4{
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  min-height: 350px !important;
+}
+
+.collapseList1 {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  min-height: 100 !important;
+}
+.collapseList2 {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  min-height: 200 !important;
+}
+.collapseList3 {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  min-height: 250 !important;
+}
+.collapseList4 {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  min-height: 300 !important;
+}
+
+/* Taken from W3 schools and modified as needed */
+.btn {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn span {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\21E8';
+  position: absolute;
+  opacity: 0;
+  top: 5px;
+  right: 5px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 10px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 10px;
+}
+
+/* transition for removal */
+.btn2 {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn2 span {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn2 span:after {
+  content: '\21E6';
+  position: absolute;
+  opacity: 0;
+  top: 5px;
+  right: 92px;
+  transition: 0.5s;
+}
+
+.btn2:hover span {
+  padding-left: 15px;
+}
+
+.btn2:hover span:after {
+  opacity: 1;
+  right: 92px;
+}
