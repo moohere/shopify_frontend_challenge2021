@@ -11,7 +11,7 @@ export default function Search({ title, list, nominate, findInList }) {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch("http://www.omdbapi.com/?apikey=6cabd6be&s=" + title)
+        fetch("https://www.omdbapi.com/?apikey=6cabd6be&s=" + title)
         .then(res => res.json())
         .then(
             (result) => {
