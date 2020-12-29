@@ -107,6 +107,7 @@ export default function App() {
   // Cookie methods
   function setCookie(newList) {
     var d = new Date();
+    // set to expire after a day
     d.setTime(d.getTime() + (1*24*60*60*1000));
     var expires = "expires=" + d.toGMTString();
     document.cookie = "list=" + newList + ";" + expires;
