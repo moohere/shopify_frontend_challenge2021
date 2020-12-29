@@ -154,7 +154,6 @@ export default function App() {
     <div className="App" style={{paddingTop: 50}}>
       <Grid container spacing={2} justify="center" alignItems="flex-start">
         <Grid item sm={1}></Grid>
-        {/* backgroundImage: "linear-gradient(0.25turn, #f6e8a7, #fae484, #fae484)", */}
         <Grid item xs={10} sm={10} style={{paddingBottom: 15}} >
           <div>
             <h1>The Shoppies: Movie Awards for Entrepreneurs</h1>

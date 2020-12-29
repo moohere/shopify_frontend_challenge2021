@@ -1,6 +1,7 @@
 UX Developer Intern & Web Developer Intern Challenge - Summer 2021
 
 Submission by Muherthan Thalayasingam (You can call me Muher - pronounced 'moohere').
+Hosted on Github Page: https://moohere.github.io/shopify_frontend_challenge2021/
 
 As soon as I saw the example screenshot of what you guys would expect, at the bare minimum,
 I knew I wanted to split the project into 3 components and React felt like a great way to start.
