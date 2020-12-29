@@ -167,11 +167,11 @@ export default function App() {
                   label="Search" 
                   name="title" 
                   value={title} 
-                  style={{width: 300}}
+                  style={{width: 265}}
                   onChange={handleChange}
                 />
               </Grid>
-              <Grid item style={{paddingLeft: 25}}>
+              <Grid item style={{padding: "0 0 10px 45px"}}>
                 <HelperButton/>
               </Grid>
             </Grid>

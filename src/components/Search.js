@@ -43,7 +43,7 @@ export default function Search({ title, list, nominate, findInList }) {
                     {items[0].Search.map(item => (
                     <li key={item.imdbID}>
                         <Grid container>
-                            <Grid item xs={10}>
+                            <Grid item xs={6} sm={10}>
                                 {item.Title} ({item.Year}) 
                             </Grid>
                             <Grid item xs={2}>

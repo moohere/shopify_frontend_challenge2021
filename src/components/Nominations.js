@@ -10,7 +10,7 @@ export default function Nominations({list, removeNomination}) {
                 {list.map(item => (
                     <li key={item.id}>
                         <Grid container>
-                            <Grid item xs={10}>
+                            <Grid item xs={6} sm={10}>
                                 {item.title} ({item.year})
                             </Grid>
                             <Grid item xs={2}>
