@@ -153,9 +153,9 @@ export default function App() {
 
   return (
     <div className="App" style={{paddingTop: 50}}>
-      <Grid container spacing={2} justify="center" alignItems="flex-start">
-        <Grid item sm={1}></Grid>
-        <Grid item xs={10} sm={10} style={{paddingBottom: 15}} >
+      <Grid container spacing={1} justify="center" alignItems="flex-start">
+        {/* <Grid item sm={1} ></Grid> */}
+        <Grid item xs={12} sm={10} md={9} lg={9} style={{paddingBottom: 15}}>
           <div>
             <h1>The Shoppies: Movie Awards for Entrepreneurs</h1>
             
@@ -178,16 +178,16 @@ export default function App() {
             </Grid>
           </div>
         </Grid>
-        <Grid item sm={1}></Grid>
+        {/* <Grid item sm={1} ></Grid> */}
 
         <Grid item sm={1}></Grid>
-        <Grid item xs={10} sm={5} style={{padding: 15, backgroundColor: "#f4f3ee", minHeight: 675, borderRadius: 15,  boxShadow: '10px 10px rgba(239, 99, 81, .1)'}}>
+        <Grid item xs={12} sm={11} md={5} lg={5} style={{padding: 15, backgroundColor: "#f4f3ee", minHeight: 675, borderRadius: 15,  boxShadow: '10px 10px rgba(239, 99, 81, .1)'}}>
           <Search {...data}/>
         </Grid>
-        <Grid className="nomList" item xs={10} sm={5} style={{padding: 15, backgroundColor: "#f4f3ee", minHeight: 100, borderRadius: 15, borderLeft: "#fbd589 5px solid", boxShadow: '10px 10px rgba(239, 99, 81, .1)'}}>
+        {/* <Grid item md={1}></Grid> */}
+        <Grid item xs={12} sm={11} md={5} lg={5} className="nomList" style={{padding: 15, backgroundColor: "#f4f3ee", borderLeft: "2px #fbd589 solid", minHeight: 100, borderRadius: 15, boxShadow: '10px 10px rgba(239, 99, 81, .1)'}}>
           <Nominations {...data}/>
         </Grid>
-        <Grid item sm={1}></Grid>
           <Snackbar
             anchorOrigin={{
               vertical: 'bottom',
